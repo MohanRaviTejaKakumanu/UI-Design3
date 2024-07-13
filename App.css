@@ -1,0 +1,68 @@
+@media screen and (max-width: 640px) {
+  .app {
+    height: 100%;
+    border-radius: 10px;
+
+    padding: 20px;
+  }
+
+  .head {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .image {
+    height: 200px;
+    width: 250px;
+    display: flex;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  .info {
+    margin-top: 50px;
+  }
+
+  .name {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .address {
+    margin-bottom: 10px;
+  }
+
+  .p {
+    display: flex;
+  }
+
+  .p1 {
+    margin-right: 80px;
+    color: grey;
+  }
+
+  .p3 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .price {
+    font-size: 12px;
+    text-decoration: line-through;
+  }
+
+  .cart {
+    font-size: 30px;
+  }
+}
