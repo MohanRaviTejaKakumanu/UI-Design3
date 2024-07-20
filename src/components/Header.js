@@ -1,20 +1,16 @@
-import { GoHeartFill } from "react-icons/go";
-import { useState } from "react";
+import { HiOutlineMenu } from "react-icons/hi";
 
 const Header = (props) => {
-  const [color, setColor] = useState("gray");
   const { data } = props;
-  const { title } = data;
-
-  const triggerColor = () => {
-    setColor((x) => (x === "gray" ? "red" : "gray"));
-  };
+  const { mainTitle } = data;
 
   return (
     <div className="head">
-      <li>{title}</li>
-      <li onClick={triggerColor}>
-        <GoHeartFill color={color} fontSize={25} />
+      <li className="main-title">{mainTitle}</li>
+      <li>
+        <button className="menu-bar">
+          <HiOutlineMenu />
+        </button>
       </li>
     </div>
   );
